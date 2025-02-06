@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm kartik lathiyan</h1>
 <h3 align="center">A passionate full stack developer from India</h3>
 
-- 🔭 I’m currently working on **backend**
-
 - 🌱 I’m currently learning **backend**
 - 📫 How to reach me **lathiyankartik@gmail.com**
 <h3 align="left">Languages and Tools:</h3>
