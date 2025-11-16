@@ -2,7 +2,7 @@
   
 # 👋 Hi, I'm Kartik Lathiyan
 
-### 🚀 Full Stack Developer | Backend Developer
+### 🚀 Full Stack Developer | Backend Engineer
 
 *Passionate about building scalable backend systems, cloud-ready applications, and clean full-stack experiences*
 
@@ -73,6 +73,10 @@
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="NPM" width="60" height="60"/>
   </a>
   &nbsp;&nbsp;&nbsp;
+  <a href="https://www.prisma.io/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" alt="Prisma" width="60" height="60"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
   <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="60" height="60"/>
   </a>
@@ -80,7 +84,17 @@
   <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="60" height="60"/>
   </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://redis.io" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="60" height="60"/>
+  </a>
+  &nbsp;&nbsp;&nbsp;
+  <a href="https://docs.bullmq.io/" target="_blank" rel="noreferrer">
+    <img src="https://img.shields.io/badge/BullMQ-Queue-red?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiA3TDEyIDEyTDIyIDdMMTIgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yIDEyTDEyIDE3TDIyIDEyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTIgMTdMMTIgMjJMMjIgMTciIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8L3N2Zz4=" alt="BullMQ" width="60" height="60"/>
+  </a>
 </p>
+
+
 
 ### ☁️ **Cloud, DevOps & Tools**
 
@@ -136,7 +150,6 @@
 
 ---
 
-
 ---
 
 ## 🌟 Fun Fact
@@ -150,10 +163,11 @@
 ### 💼 Let's Connect!
 
 [![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lathiyankartik@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartik-lathiyan-665b712a1/)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
 
+---
 
-⭐️ From [Kartik Lathiyan](https://github.com/kartik7310)
+⭐️ From [Kartik Lathiyan](https://github.com/YOUR_GITHUB_USERNAME)
 
 </div>
