@@ -1,173 +1,301 @@
 <div align="center">
+
+# 👨‍💻Hi ,I am Kartik Lathiyan
+
+### Backend-Focused Full Stack Developer 
+
+Building **scalable backend systems, SaaS applications, and production-ready platforms** with strong focus on clean architecture, performance optimization, and real-world deployment.
+
+</div>
+
+---
+## 🎯 Featured Projects
+
+---
+
+### 🔗 Connexto — Full Stack Platform (Deployed)
+
+<p align="left">
+  <a href="https://github.com/kartik7310/connexto">
+    <img src="https://img.shields.io/badge/GitHub-Backend-blue?logo=github">
+  </a>
+  <a href="https://connexto.site/">
+    <img src="https://img.shields.io/badge/Live-Demo-success?logo=google-chrome">
+  </a>
+</p>
+
+A **real-time social connection platform** where users discover people, chat in real time, publish blogs, and unlock premium features through subscriptions — built with strong focus on scalable backend architecture and real production deployment.
+
+#### Key Work
+- Complete **authentication & authorization system**
+  - Email/password signup & login
+  - Email OTP verification
+  - Forgot & reset password flow
+  - Google OAuth social login
+  - JWT-based secure session handling
+- API security with **rate limiting & request validation**
+- Real-time **chat system implementation**
+- Blog/content management module
+- Premium subscription & payment integration (Stripe)
+- Redis caching & database query optimization
+- Dockerized multi-service architecture
+- CI/CD pipeline using **GitHub Actions**
+- Cloud deployment, server setup & production debugging
+
+**Tech:** Node.js • Express • React • MongoDB • Redis • Docker • AWS • GitHub Actions • Brevo/Mailgun  
+**Focus:** Secure backend architecture, real-time systems, payment integration, scalability, and CI/CD-driven deployment.
+
+---
+
+### 💰 WalletGuardian — Expense Management SaaS (Full Stack)
+<p align="left">
+  <a href="https://github.com/kartik7310/Wallet-Guradian">
+    <img src="https://img.shields.io/badge/GitHub-Backend-blue?logo=github">
+  </a>
+</p>
+
+
+Full-stack SaaS platform for managing expenses, analytics, and automated financial workflows with secure authentication and background automation.
+
+#### Key Work
+- Complete authentication system with rate limiting
+  - Email/password login & signup
+  - Email OTP verification
+  - Forgot & reset password flow
+  - Google OAuth login
+- Expense & income transaction engine with category management
+- Recurring transactions automation using **Cron Jobs**
+- Free vs Premium feature architecture with usage limits
+- Background processing using **BullMQ + Redis**
+- Monthly analytics & reporting APIs
+- Secure API validation and session handling
+- Full frontend + backend integration
+
+**Tech:** TypeScript • Node.js • Express • React • MongoDB • Redis • BullMQ • Docker • Google OAuth  
+**Focus:** SaaS architecture, authentication systems, async processing, and scalable backend design.
+
+---
+
+### 📚 KnowledgeBase — AI Knowledge Platform (RAG System)
+<p align="left">
+  <a href="https://github.com/kartik7310/Knowledge">
+    <img src="https://img.shields.io/badge/GitHub-Backend-blue?logo=github">
+  </a>
+  <a href="https://knowledge-base-blue.vercel.app/">
+    <img src="https://img.shields.io/badge/Live-Demo-success?logo=google-chrome">
+  </a>
+</p>
+
+
+A **Retrieval-Augmented Generation (RAG)** platform where users upload documents and ask questions to receive context-aware AI responses grounded strictly in their own data.
+
+#### Key Work
+- Document upload & ingestion pipeline (PDF/Text processing)
+- Complete RAG workflow  
+  *(Embedding → Vector Storage → Semantic Retrieval → AI Response)*
+- Semantic search using vector databases
+- Context-aware AI question answering
+- Secure backend APIs with authentication
+- API rate limiting for controlled AI usage
+- Frontend interface for document management & querying
+
+**Tech:** Node.js • Express • React • Vector Database • LangChain • LLM Integration  
+**Focus:** RAG system design, AI-powered backend workflows, semantic search, and secure API architecture.
+
+---
+
+### 🛒 ProductHub — E-Commerce Backend (NestJS)
+<p align="left">
+  <a href="https://github.com/kartik7310/ProductHub">
+    <img src="https://img.shields.io/badge/GitHub-Backend-blue?logo=github">
+  </a>
   
-# 👋 Hi, I'm Kartik Lathiyan
-
-### 🚀 Full Stack Developer | Backend Engineer
-
-*Passionate about building scalable backend systems, cloud-ready applications, and clean full-stack experiences*
-
-[![Email](https://img.shields.io/badge/Email-lathiyankartik%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lathiyankartik@gmail.com)
-[![Location](https://img.shields.io/badge/Location-India%20🇮🇳-FF9933?style=for-the-badge&logo=google-maps&logoColor=white)](#)
-
-</div>
-
----
-
-## 🚀 About Me
-
-- 🔭 Currently working on **backend-heavy SaaS & automation applications**
-- 💡 Deeply interested in **system design, distributed systems & cloud architecture**
-- 🧠 Strong focus on writing **clean, production-grade backend code**
-- 🌱 Always learning and exploring cutting-edge technologies
-- 📍 Based in **India**
-- 📫 Reach me at: **lathiyankartik@gmail.com**
-
----
-
-## 🛠️ Tech Stack & Tools
-
-### 💻 **Core Languages & Frontend**
-
-<p align="center">
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="TypeScript" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="55" height="55"/>
-  </a>
-</p>
-
-### ⚙️ **Backend & Databases**
-
-<p align="center">
-  <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="70" height="70"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express" width="70" height="70"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.npmjs.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/npm/npm-original-wordmark.svg" alt="NPM" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.prisma.io/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" alt="Prisma" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="MongoDB" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySQL" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://redis.io" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="Redis" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://docs.bullmq.io/" target="_blank" rel="noreferrer">
-    <img src="https://img.shields.io/badge/BullMQ-Queue-red?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDJMMiA3TDEyIDEyTDIyIDdMMTIgMloiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik0yIDEyTDEyIDE3TDIyIDEyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiLz4KPHBhdGggZD0iTTIgMTdMMTIgMjJMMjIgMTciIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIvPgo8L3N2Zz4=" alt="BullMQ" width="60" height="60"/>
-  </a>
 </p>
 
 
+A backend-only e-commerce system modeling **real purchase workflows under concurrent usage**, ensuring inventory consistency when multiple users attempt purchases simultaneously.
 
-### ☁️ **Cloud, DevOps & Tools**
+#### Key Work
+- Modular NestJS architecture (Controller → Service → Repository)
+- PostgreSQL relational schema with normalized relationships
+- Atomic order creation using database transactions
+- Concurrency handling with locking strategies
+- Authentication using **Access & Refresh Token (JWT)**
+- API throttling / rate limiting
+- Product, order, and user management APIs
+- DTO validation & structured service-layer separation
+- Centralized error handling and secure REST API design
 
-<p align="center">
-  <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="Docker" width="70" height="70"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.nginx.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="Nginx" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="GitHub Actions" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" width="70" height="70"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="60" height="60"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://github.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://postman.com" target="_blank" rel="noreferrer">
-    <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="Postman" width="55" height="55"/>
-  </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://code.visualstudio.com/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VS Code" width="55" height="55"/>
-  </a>
-</p>
+**Tech:** NestJS • PostgreSQL • Prisma ORM • JWT Auth  
+**Focus:** Transactional integrity, concurrency control, secure authentication, and enterprise backend architecture.
 
 ---
 
-## ☁️ **AWS Services Expertise**
+## 🛠️ Tech Stack & Expertise
+
+---
+
+### 💻 Languages & Frontend
 
 <div align="center">
 
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-
-**EC2** • **S3** • **ECS** • **ECR** • **API Gateway** • **Auto Scaling Groups**
+<img src="https://skillicons.dev/icons?i=c,cpp,js,ts,html,css,react,tailwind" />
 
 </div>
 
 ---
 
----
-
-## 🌟 Fun Fact
-
-> **I love creating real-world backend applications that make life easier, faster, and more productive.**
-
----
+### ⚙️ Backend Development & APIs
 
 <div align="center">
 
-### 💼 Let's Connect!
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs" />
+&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/socketdotio/010101" width="48"/>
 
-[![Email](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:lathiyankartik@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](#)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](#)
+</div>
+
+```
+✓ REST API Design & Modular Architecture
+✓ MVC / Layered Backend Structure
+✓ WebSocket Real-time Communication
+✓ Background Jobs (BullMQ) & Cron Automation
+```
 
 ---
 
-⭐️ From [Kartik Lathiyan](https://github.com/YOUR_GITHUB_USERNAME)
+### 🔐 Authentication & Security
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=jwt" />
+<img src="https://cdn.simpleicons.org/auth0/EB5424" width="48"/>
+<img src="https://cdn.simpleicons.org/passport/34E27A" width="48"/>
 
 </div>
+
+```
+✓ Access & Refresh Token Authentication
+✓ Google OAuth 2.0
+✓ Email OTP Verification
+✓ RBAC Authorization
+✓ API Rate Limiting & Secure Sessions
+✓ Password Hashing (bcrypt)
+```
+
+---
+
+### 🗄️ Databases, ORM & Caching
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis" />
+&nbsp;&nbsp;
+<img src="https://cdn.simpleicons.org/prisma/2D3748" width="48"/>
+
+</div>
+
+```
+✓ Relational & NoSQL Data Modeling
+✓ Database Transactions & Locking
+✓ Query Optimization & Indexing
+✓ Redis Caching & Queue Processing
+✓ Aggregations & Reporting Queries
+```
+
+---
+
+### 🤖 AI & RAG Systems
+
+<div align="center">
+
+<img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="48"/>
+<img src="https://skillicons.dev/icons?i=openai" />
+<img src="https://cdn.simpleicons.org/pinecone/000000" width="48"/>
+
+</div>
+
+```
+✓ Retrieval-Augmented Generation (RAG)
+✓ Vector Embeddings & Semantic Search
+✓ Document Chunking & Context Retrieval
+✓ LLM-based Knowledge Query Systems
+```
+
+---
+
+### ☁️ Cloud, Deployment & DevOps
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=docker,aws,nginx,githubactions,linux" />
+
+</div>
+
+```
+✓ Dockerized Deployments
+✓ CI/CD Pipelines (GitHub Actions)
+✓ Nginx Reverse Proxy Setup
+✓ AWS EC2 & S3 Hosting
+✓ SSL/TLS & Production Debugging
+```
+
+---
+
+### 🛠️ Development Tools
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,ubuntu" />
+
+</div>
+
+```
+✓ API Testing & Debugging
+✓ Version Control Workflow
+✓ Backend Development & Documentation
+```
+
+---
+
+### 📦 Integrations
+
+<div align="center">
+
+<img src="https://cdn.simpleicons.org/stripe/008CDD" width="48"/>
+<img src="https://cdn.simpleicons.org/mailgun/0092FF" width="48"/>
+<img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="48"/>
+
+</div>
+
+```
+✓ Stripe Payment Integration
+✓ Email Services (Brevo)
+✓ File Uploads (Multer + S3)
+✓ Input Validation (Joi)
+✓ Scheduled Jobs & Webhooks
+```
+
+---
+
+---
+## 🧠 Engineering Approach
+
+- Build projects like real production systems
+- Prefer scalability and maintainability over shortcuts
+- Use queues, caching, and async processing where needed
+- Learn through deployment, debugging, and iteration
+
+---
+---
+## 🎓 Education
+
+**Bachelor of Computer Applications (BCA)**  
+Maa Shakumbhari University, Uttar Pradesh  
+2023 – 2026
+
+---
+
+## 🤝 Connect
+
+⭐ Building real systems, improving daily, and preparing for strong backend engineering roles.
