@@ -4,7 +4,8 @@
 
 ### Backend-Focused Full Stack Developer 
 
-Building **scalable backend systems, SaaS applications, and production-ready platforms** with strong focus on clean architecture, performance optimization, and real-world deployment.
+Backend-focused Full Stack Developer building real-time and SaaS applications 
+with Node.js, focusing on scalable APIs, system design, and production deployment.
 
 </div>
 
