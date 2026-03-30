@@ -1,10 +1,7 @@
 <div align="center">
 
 # Kartik Lathiyan
-### Full Stack Developer (Backend Heavy)
-
-Node.js · MongoDB · Redis · AWS · Next.js
-
+### Full Stack Developer (Backend Focused)
 [![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white)](https://kartik-inky.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartik-lathiyan-665b712a1)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310)
