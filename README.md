@@ -47,7 +47,7 @@ Upload PDFs and ask questions — answers grounded strictly in your documents, n
 SaaS platform for expense tracking, recurring transactions, analytics, and AI-assisted financial advice.
 
 - **BullMQ + Redis** job queue for monthly report generation — jobs are idempotent and retry-safe
-- **Groq**-powered financial chatbot — context-aware saving advice based on spending data
+- **Groq**-powered financial chatbot — for getting finincial advice and Q/A
 - **Stripe** subscription enforcement with server-side webhook signature validation
 - JWT, Google OAuth, OTP auth with **Zod** input validation and rate limiting
 
