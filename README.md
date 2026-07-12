@@ -2,7 +2,7 @@
 
 # Kartik Lathiyan
 ### Full Stack Developer (Backend Focused)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white)](https://kartik-inky.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000?logo=vercel&logoColor=white)](https://kartik-dev-gamma.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartik-lathiyan-665b712a1)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310)
 
