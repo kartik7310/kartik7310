@@ -38,24 +38,6 @@ I enjoy solving engineering problems involving **performance optimization, concu
 
 ---
 
-# 💼 Professional Experience
-
-### Full Stack Developer Intern
-
-**AreKiv Global Research Platforms Pvt. Ltd.** · Remote
-`Jan 2026 – Jul 2026`
-
-* Designed and developed a **Real Estate SaaS platform end-to-end**, covering property listings, lead management, meeting bookings, multiple user roles, approval workflows, admin controls, featured listing plans, and Razorpay payments.
-* Identified and resolved a **race-condition risk in concurrent booking**, implementing a concurrency-safe solution using **MongoDB partial unique indexes**.
-* Improved backend performance by **40%** through compound indexing and reduced redundant frontend API calls by **25–30%** using debounced search and lazy loading.
-* Independently developed the **HRMS module**, delivering **30+ REST APIs** and an admin interface for employee lifecycle management, department/designation administration, and invitation-based onboarding.
-* Implemented multi-role **RBAC**, payment idempotency, validation, and production-oriented backend workflows.
-
-**Tech:**
-`Node.js` `Express.js` `MongoDB` `Mongoose` `Next.js` `React` `Razorpay` `RBAC`
-
----
-
 # 🚀 Featured Projects
 
 <table>
