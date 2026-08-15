@@ -1,163 +1,402 @@
 <div align="center">
 
 # Kartik Lathiyan
-### Full Stack Developer (Backend Focused)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kartik-lathiyan-665b712a1)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310)
+### Full Stack Developer · Backend Focused · AI & Distributed Systems
+
+Building **production-ready web applications, scalable backend systems, real-time platforms, and AI-powered products.**
+
+<p>
+  <a href="https://www.linkedin.com/in/kartik-lathiyan-665b712a1">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/kartik7310">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
 </div>
 
 ---
 
-## Featured Projects
+## 👨‍💻 About Me
 
-### Connexto — Real-Time Connection & Matching Platform
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310/Connectly)
-[![Live](https://img.shields.io/badge/Live-Demo-success?logo=google-chrome)](https://connexto.site/)
+I'm a **Full Stack Developer with a backend-first mindset**, experienced in building production-oriented applications across **backend architecture, REST APIs, databases, real-time systems, AI integrations, authentication, and cloud deployment**.
 
-Real-time platform for user discovery, messaging, blogging, and subscription-based access.
+I enjoy solving engineering problems involving **performance optimization, concurrency, database design, background processing, and scalable API architecture**.
 
-- Reduced API response time by **~75%** (from ~420ms to ~105ms) via Redis caching and MongoDB compound indexing — verified with Autocannon at 100 concurrent users
-- Real-time messaging with **Socket.io** and **Redis** — typing indicators, online/offline presence, in-app notifications
-- **JWT, Google OAuth, OTP** authentication with **RBAC** (Free vs Premium) and **Stripe** subscription webhooks
-- Deployed via **Docker** and **GitHub Actions CI/CD** on **AWS EC2**
+### What I Work With
 
-`Node.js` `Express` `MongoDB` `Redis` `Socket.io` `Stripe` `Docker` `AWS EC2`
-
----
-
-### KnowledgeBase — AI Document Assistant (RAG)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310/KnowledgeBase)
-[![Live](https://img.shields.io/badge/Live-Demo-success?logo=google-chrome)](https://knowledge-base-blue.vercel.app/)
-
-Upload PDFs and ask questions — answers grounded strictly in your documents, not general model knowledge.
-
-- Chunked ingestion pipeline: PDF parsing → text splitting → **Groq embeddings** → **Pinecone** vector storage with top-k retrieval
-- **LangChain + Groq (LLaMA 3.1)** integration ensuring responses never hallucinate beyond retrieved context
-- Secured AI endpoints with rate limiting, file size validation, and prompt injection guards
-
-`Node.js` `Express` `LangChain` `Pinecone` `Groq (LLaMA 3.1)` `React` `TypeScript` `Tailwind`
+* ⚙️ Backend architecture & REST API design
+* 🗄️ Database modeling, indexing & query optimization
+* ⚡ Redis caching, queues & background processing
+* 🔄 Real-time applications with WebSockets
+* 🤖 LLM applications, RAG & AI integrations
+* 🔐 JWT, OAuth, OTP & RBAC
+* 💳 Payment integrations & webhook systems
+* ☁️ Docker, AWS & CI/CD
 
 ---
 
-### WalletGuardian — Expense Management SaaS
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310/Fino)
+# 💼 Professional Experience
 
-SaaS platform for expense tracking, recurring transactions, analytics, and AI-assisted financial advice.
+### Full Stack Developer Intern
 
-- **BullMQ + Redis** job queue for monthly report generation — jobs are idempotent and retry-safe
-- **Groq**-powered financial chatbot — for getting finincial advice and Q/A
-- **Stripe** subscription enforcement with server-side webhook signature validation
-- JWT, Google OAuth, OTP auth with **Zod** input validation and rate limiting
+**AreKiv Global Research Platforms Pvt. Ltd.** · Remote
+`Jan 2026 – Jul 2026`
 
-`Node.js` `Express` `MongoDB` `Redis` `BullMQ` `Stripe` `Groq` `React` `TypeScript`
+* Designed and developed a **Real Estate SaaS platform end-to-end**, covering property listings, lead management, meeting bookings, multiple user roles, approval workflows, admin controls, featured listing plans, and Razorpay payments.
+* Identified and resolved a **race-condition risk in concurrent booking**, implementing a concurrency-safe solution using **MongoDB partial unique indexes**.
+* Improved backend performance by **40%** through compound indexing and reduced redundant frontend API calls by **25–30%** using debounced search and lazy loading.
+* Independently developed the **HRMS module**, delivering **30+ REST APIs** and an admin interface for employee lifecycle management, department/designation administration, and invitation-based onboarding.
+* Implemented multi-role **RBAC**, payment idempotency, validation, and production-oriented backend workflows.
 
----
-
-### VoiceSaathi — AI Voice Mock Interview Platform
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310/VoiceSaathi)
-[![Live](https://img.shields.io/badge/Live-Demo-success?logo=google-chrome)](https://prep-saathi.vercel.app/)
-
-AI-powered mock interview platform with real-time voice conversation — simulates human interviewers using Voice AI.
-
-- Integrated **Vapi AI** for real-time audio streaming, Speech-to-Text, and Text-to-Speech — users speak naturally as in a real interview
-- **Groq**-powered question generation and feedback engine — dynamically generates job-specific questions from user-provided JD and scores answers on technical accuracy, communication, and tone
-- Built on **Supabase** (PostgreSQL + Auth) for session management, transcript storage, and interview history
-- **SSR with Next.js 15** App Router for fast page loads; full responsive UI with Tailwind CSS and shadcn/ui
-
-`Next.js 15` `Supabase` `PostgreSQL` `Vapi AI` `Groq` `Tailwind CSS` `shadcn/ui`
+**Tech:**
+`Node.js` `Express.js` `MongoDB` `Mongoose` `Next.js` `React` `Razorpay` `RBAC`
 
 ---
 
-### ProductHub — E-Commerce Backend
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/kartik7310/ProductHub)
+# 🚀 Featured Projects
 
-Backend system modelling real purchase workflows — ensures inventory consistency under concurrent usage.
+<table>
+<tr>
 
-- Atomic order creation using **PostgreSQL transactions** with locking strategies to prevent overselling
-- Modular **NestJS** architecture (Controller → Service → Repository) with DTO validation
-- Access & Refresh Token (**JWT**) auth with API rate limiting
+<td width="50%" valign="top">
 
-`NestJS` `PostgreSQL` `Prisma ORM` `JWT`
+<h3 align="center">🔗 Connexto</h3>
+
+<p align="center">
+  <strong>Real-Time Social & Subscription Platform</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kartik7310/Connectly">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://connexto.site/">
+    <img src="https://img.shields.io/badge/Live_Demo-success?style=flat&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+Full-stack real-time platform for **user discovery, messaging, blogging, notifications, and subscription-based premium access**.
+
+### Engineering Highlights
+
+* Designed and shipped the platform **end-to-end from schema design to deployment**
+* Diagnosed ~**420ms API latency** caused by unindexed queries
+* Reduced average API response time by **75% to ~105ms** using Redis caching and MongoDB compound indexing
+* Verified performance using **Autocannon at 100 concurrent users**
+* Built real-time **online presence and typing indicators** using Socket.io + Redis
+* Implemented automated cron workflows and deployed using **Docker + GitHub Actions on AWS EC2**
+
+**Stack**
+
+`React` `Tailwind CSS` `Node.js` `Express.js` `MongoDB` `Redis` `Socket.io` `Docker` `AWS` `Razorpay`
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🎙️ VoiceSaathi</h3>
+
+<p align="center">
+  <strong>AI Mock Interview Platform</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kartik7310/VoiceSaathi">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://prep-saathi.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-success?style=flat&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+AI-powered mock interview platform with **real-time voice interaction, automated question generation, and AI feedback**.
+
+### Engineering Highlights
+
+* Built live voice interviews using **Vapi AI** with Speech-to-Text and Text-to-Speech
+* Integrated **Groq LLMs** for dynamic interview question generation
+* Reduced question-generation latency from **4–5s to ~2s** through LLM pipeline optimization
+* Built AI feedback and scoring for interview responses
+* Added shareable interview sessions, email invitations, and Google OAuth
+* Used Supabase PostgreSQL for session and interview data management
+
+**Stack**
+
+`Next.js` `Supabase` `PostgreSQL` `Vapi AI` `Groq` `Tailwind CSS`
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🛒 ProductHub</h3>
+
+<p align="center">
+  <strong>E-Commerce Backend System</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kartik7310/ProductHub">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+Modular e-commerce backend covering **products, categories, orders, inventory, payments, authentication, and API documentation**.
+
+### Engineering Highlights
+
+* Designed modular architecture using **NestJS**
+* Prevented inventory overselling with **Prisma atomic transactions and stock locking**
+* Implemented JWT/RBAC authentication
+* Eliminated an **N+1 query problem** in order creation through batch fetching
+* Integrated **Stripe payments**
+* Documented REST APIs using **Swagger/OpenAPI**
+
+**Stack**
+
+`NestJS` `PostgreSQL` `Prisma` `Stripe` `JWT` `TypeScript` `Swagger`
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">🧠 KnowledgeBase</h3>
+
+<p align="center">
+  <strong>AI Document Assistant · RAG</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kartik7310/KnowledgeBase">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://knowledge-base-blue.vercel.app/">
+    <img src="https://img.shields.io/badge/Live_Demo-success?style=flat&logo=google-chrome&logoColor=white"/>
+  </a>
+</p>
+
+AI-powered document assistant that uses **retrieval-augmented generation** to answer questions from uploaded documents.
+
+### Engineering Highlights
+
+* Built PDF ingestion, text chunking, embedding, and retrieval pipeline
+* Used **Pinecone** for vector storage and semantic search
+* Integrated **LangChain + Groq / LLaMA**
+* Implemented context-grounded responses to reduce unsupported answers
+* Added rate limiting, file validation, and prompt-injection protection
+
+**Stack**
+
+`Node.js` `Express.js` `LangChain` `Pinecone` `Groq` `React` `TypeScript` `Tailwind`
+
+</td>
+
+</tr>
+
+<tr>
+
+<td width="50%" valign="top">
+
+<h3 align="center">💳 WalletGuardian</h3>
+
+<p align="center">
+  <strong>Expense Management SaaS</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/kartik7310/Fino">
+    <img src="https://img.shields.io/badge/Source_Code-181717?style=flat&logo=github&logoColor=white"/>
+  </a>
+</p>
+
+Expense management SaaS for **transaction tracking, recurring payments, analytics, reports, and AI-assisted financial Q&A**.
+
+### Engineering Highlights
+
+* Implemented asynchronous monthly report generation using **BullMQ + Redis**
+* Designed idempotent and retry-safe background jobs
+* Integrated Groq-powered financial chatbot
+* Implemented Stripe subscription enforcement with webhook signature validation
+* Added JWT, Google OAuth, OTP authentication and Zod validation
+* Applied API rate limiting for protected endpoints
+
+**Stack**
+
+`Node.js` `Express.js` `MongoDB` `Redis` `BullMQ` `Stripe` `Groq` `React` `TypeScript`
+
+</td>
+
+<td width="50%" valign="top">
+
+<h3 align="center">⚡ Engineering Interests</h3>
+
+<p align="center">
+  <strong>Areas I Enjoy Working On</strong>
+</p>
+
+<br>
+
+* Backend architecture
+* Scalable REST APIs
+* Real-time systems
+* Distributed background jobs
+* Database optimization
+* Concurrency & transactions
+* AI-powered applications
+* RAG pipelines
+* Authentication & authorization
+* Cloud deployment & CI/CD
+
+</td>
+
+</tr>
+</table>
 
 ---
 
-## Tech Stack
+# 🛠️ Technical Skills
 
-### Languages & Frontend
-<div align="center">
-<img src="https://skillicons.dev/icons?i=js,ts,html,css,react,nextjs,tailwind" />
-</div>
+### 💻 Languages
 
-### Backend
-<div align="center">
-<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs" />
-&nbsp;
+<p>
+<img src="https://skillicons.dev/icons?i=js,ts,python" />
+</p>
+
+`JavaScript` · `TypeScript` · `Python`
+
+---
+
+### ⚙️ Backend & APIs
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,fastapi" />
 <img src="https://cdn.simpleicons.org/socketdotio/010101" width="48"/>
-</div>
+</p>
 
-```
-✓ REST API Design        ✓ WebSockets (Socket.io)
-✓ BullMQ Background Jobs ✓ Cron Automation
-```
+`Node.js` · `Express.js` · `NestJS` · `FastAPI`
 
-### Databases & Caching
-<div align="center">
-<img src="https://skillicons.dev/icons?i=mongodb,postgres,redis,mysql" />
-&nbsp;
-<img src="https://cdn.simpleicons.org/prisma/2D3748" width="48"/>
-</div>
-
-```
-✓ NoSQL & Relational Modeling   ✓ Transactions & Locking
-✓ Query Optimization & Indexing ✓ Redis Caching & Queues
-```
-
-### Auth & Security
-<div align="center">
-<img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="48"/>
-&nbsp;
-<img src="https://cdn.simpleicons.org/stripe/008CDD" width="48"/>
-</div>
-
-```
-✓ JWT / OAuth 2.0 / OTP ✓ RBAC Authorization
-✓ Rate Limiting         ✓ Stripe Webhooks
-```
-
-### AI / RAG
-<div align="center">
-<img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="48"/>
-&nbsp;
-<img src="https://cdn.simpleicons.org/pinecone/000000" width="48"/>
-&nbsp;
-<img src="https://skillicons.dev/icons?i=openai" />
-</div>
-
-```
-✓ RAG Pipelines                    ✓ Vector Embeddings & Semantic Search
-✓ Document Chunking & Retrieval    ✓ LLM Integration (Groq / LLaMA 3.1)
-```
-
-### Cloud & DevOps
-<div align="center">
-<img src="https://skillicons.dev/icons?i=docker,aws,nginx,githubactions,linux" />
-</div>
-
-```
-✓ Docker & CI/CD (GitHub Actions) ✓ AWS EC2 & S3
-✓ Nginx Reverse Proxy             ✓ ImageKit / Cloudinary
-```
-
-### Tools
-<div align="center">
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,ubuntu" />
-</div>
+`REST APIs` · `WebSockets` · `Socket.io` · `BullMQ` · `Cron Jobs`
 
 ---
 
-## Education
+### 🎨 Frontend
 
-**Bachelor of Computer Applications (BCA)**  
-Maa Shakumbhari University, Uttar Pradesh · 2023–2026
+<p>
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind" />
+</p>
+
+`React` · `Next.js` · `Tailwind CSS` · `shadcn/ui`
+
+---
+
+### 🗄️ Databases & ORM
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb,postgres,mysql,redis" />
+<img src="https://cdn.simpleicons.org/prisma/2D3748" width="48"/>
+</p>
+
+`MongoDB` · `Mongoose` · `PostgreSQL` · `MySQL` · `Redis` · `Prisma ORM`
+
+**Core Concepts**
+
+`Database Modeling` · `Indexing` · `Query Optimization` · `Transactions` · `Concurrency` · `Locking` · `Caching`
+
+---
+
+### 🔐 Security & Authentication
+
+<p>
+<img src="https://cdn.simpleicons.org/jsonwebtokens/000000" width="48"/>
+</p>
+
+`JWT` · `OAuth 2.0` · `Google OAuth` · `OTP` · `RBAC`
+
+`Zod Validation` · `Rate Limiting` · `API Security` · `Webhook Validation`
+
+---
+
+### 🤖 AI & Integrations
+
+<p>
+<img src="https://cdn.simpleicons.org/langchain/1C3C3C" width="48"/>
+<img src="https://cdn.simpleicons.org/pinecone/000000" width="48"/>
+</p>
+
+`Groq` · `LLaMA 3.1` · `LangChain` · `Pinecone` · `Vapi AI`
+
+`RAG` · `Vector Embeddings` · `Semantic Search` · `Document Retrieval` · `LLM Integration`
+
+---
+
+### 💳 Payments & Services
+
+`Stripe` · `Razorpay` · `Supabase`
+
+---
+
+### ☁️ Cloud & DevOps
+
+<p>
+<img src="https://skillicons.dev/icons?i=docker,aws,nginx,githubactions,linux" />
+</p>
+
+`Docker` · `AWS EC2` · `AWS S3` · `Nginx` · `GitHub Actions` · `CI/CD` · `Linux`
+
+---
+
+### 🧰 Developer Tools
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,ubuntu" />
+</p>
+
+`Git` · `GitHub` · `VS Code` · `Postman` · `Swagger / OpenAPI`
+
+---
+
+# 🏆 Achievements
+
+### 🥇 5th Rank — Hackathon
+
+**Shri Ram Group of Colleges** · April 2026
+
+---
+
+# 📜 Certifications
+
+* **Oracle — Agentic AI Foundations Associate**
+* **Udemy — Backend Development with Node.js**
+* **AWS — Getting Started with Compute**
+* **Udemy — Full Stack Development**
+
+---
+
+# 🎓 Education
+
+**Bachelor of Computer Applications (BCA)**
+**Maa Shakumbhari University, Uttar Pradesh, India**
+
+`2023 – 2026`
+
+---
+
+<div align="center">
+
+### Let's Build Something Great 🚀
+
+<a href="https://www.linkedin.com/in/kartik-lathiyan-665b712a1">
+  <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+
+<a href="https://github.com/kartik7310">
+  <img src="https://img.shields.io/badge/View_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</div>
