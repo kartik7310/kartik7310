@@ -2,7 +2,7 @@
 
 # Kartik Lathiyan
 
-### Full Stack Developer · Backend Focused · AI & Distributed Systems
+### Full Stack Developer · Backend Focused · Generative Ai and Agentic Ai
 
 Building **production-ready web applications, scalable backend systems, real-time platforms, and AI-powered products.**
 
